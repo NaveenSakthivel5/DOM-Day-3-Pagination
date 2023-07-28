@@ -1,0 +1,29 @@
+
+.data-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .data-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    padding: 5px 10px;
+    margin: 0px;
+    cursor: pointer;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    
+  }
+  
+  .pagination button:hover {
+    background-color: #ddd;
+  }
+  
